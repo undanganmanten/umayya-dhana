@@ -425,7 +425,7 @@ img{
   display: flex;
   justify-content: center;
   position: absolute;
-  top: -80px;
+  top: -90px;
   width: 100vw;
 }
 
@@ -445,7 +445,7 @@ img{
 
 .ornamen2 img{
   width: 100vw;
-  height: 40vh;
+  height: 380px;
 }
 
 .ornamen3 img{
