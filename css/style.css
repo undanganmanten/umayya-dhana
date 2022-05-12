@@ -299,7 +299,7 @@ img{
 .container .cover-bottom{
   position: absolute;
   top: -50px;
-  /* z-index: 0!important; */
+  z-index: 0!important;
 }
 
 .arrum-section .cover-top,
@@ -434,7 +434,7 @@ img{
   display: flex;
   justify-content: center;
   position: absolute;
-  top: -20px;
+  top: -60px;
   width: 100vw;
 }
 
@@ -449,8 +449,8 @@ img{
 }
 
 .ornamen3 img{
-  width: 95vw;
-  height: 370px;
+  width: 100vw;
+  height: 400px;
 }
 
 .right-flower{
@@ -467,22 +467,30 @@ img{
 }
 
 .content-isra{ 
-  width: 100vw;
+  width: 95vw;
   height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: right;
   padding: 10px 0 10px 0;
+  /* z-index: 999; */
+  margin-left: 15px;
+  /* background-color: #bf0000; */
 }
 
 .arrum-section .content-isra p{
   margin-top: -40px;
+  color: #000;
 }
 .arrum-section .content-isra h3{
   z-index: 100;
-  /* margin-top: -20px; */
+  text-align: right;
+  margin-right: 60px;
+  /* background-color: #bf0000; */
+  width: 95vw;
+  margin-left: 15px;
 }
 
 .arrum-section .ornamen-left{
