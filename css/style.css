@@ -903,8 +903,9 @@ font-size: 40px;
 }
 
 .kediaman3 img{
-  width: 99vw;
-  z-index: 1;
+  width: 100vw;
+  /* z-index: 1; */
+  margin-bottom: -55px;
 }
 
 .kediaman p{
@@ -919,13 +920,13 @@ font-size: 40px;
 .text-block2{
   /* position: absolute; */
   left: 0;
-  top: 0;
+  top: -20px;
 }
 
-.text-block2 a img{
+.date1 .text-block2 a img{
   width: 150px;
-  z-index: 999 !important;
-  margin-top: -20px;
+  margin-top: -30px;
+  margin-bottom: 10px;
 }
 
 .sorry-protokol{ 
@@ -978,7 +979,7 @@ font-size: 40px;
 }
 
 .protokol img{ 
-  margin-top: -37px;
+  margin-top: 0px;
   width: 100vw;
   /* height: 320px; */
   z-index: 0!important;
