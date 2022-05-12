@@ -757,7 +757,7 @@ font-size: 40px;
 }
 
 .date1 .text-block2 .kediaman img{
-  width: 85vw;
+  width: 330px;
 }
 
 .date1 .cover-bottom{
@@ -847,15 +847,44 @@ font-size: 40px;
 }
 
 .waktu .sabtu p{
-  color: black;
+  color: rgb(52, 13, 13);
   font-size: 60px !important;
   padding: 0 !important;
   line-height: 100px;
 }
 
 .kediaman{
-  text-align: left;
-  padding: 20px 60px;
+  /* text-align: left; */
+  /* padding: 20px 60px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.kediaman1{
+  /* background-color: #000; */
+  display: flex;
+  margin-left: 0px;
+  width: 100vw;
+}
+
+.kediaman1 img{
+  margin-top: -80px;
+  width: 200px;
+  height: 250px;
+}
+
+.kediaman2{
+  /* background-color: #4f4f4f; */
+  display: flex;
+  margin-right: 0px;
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+.kediaman2 img{
+  width: 200px;
+  height: 250px;
+  margin-top: -180px;
 }
 
 .kediaman p{
