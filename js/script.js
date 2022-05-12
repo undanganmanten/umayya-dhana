@@ -82,23 +82,23 @@ var x = setInterval(function() {
 }, 1000);
 
 //kirim hadiah
-let modal = document.querySelector(".modal");
-let trigger = document.querySelector(".trigger");
-let closeButton = document.querySelector(".close-button");
+// let modal = document.querySelector(".modal");
+// let trigger = document.querySelector(".trigger");
+// let closeButton = document.querySelector(".close-button");
 
-function toggleModal() {
-    modal.classList.toggle("show-modal");
-}
+// function toggleModal() {
+//     modal.classList.toggle("show-modal");
+// }
 
-function windowOnClick(event) {
-    if (event.target === modal) {
-        toggleModal();
-    }
-}
+// function windowOnClick(event) {
+//     if (event.target === modal) {
+//         toggleModal();
+//     }
+// }
 
-trigger.addEventListener("click", toggleModal);
-closeButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
+// trigger.addEventListener("click", toggleModal);
+// closeButton.addEventListener("click", toggleModal);
+// window.addEventListener("click", windowOnClick);
 
 
 
@@ -122,7 +122,7 @@ var firebaseConfig = {
   
     if(input_box.value.length != 0 && input_date.value.length != 0){
       // our boxes have data and we take database
-      var key = firebase.database().ref().child("alifia").push().key;
+      var key = firebase.database().ref().child("novita").push().key;
       var task = {
         ucapan: input_box.value,
         nama: input_date.value,
@@ -130,7 +130,7 @@ var firebaseConfig = {
       };
   
       var updates = {};
-      updates["/alifia/" + key] = task;
+      updates["/novita/" + key] = task;
       firebase.database().ref().update(updates);
       create_unfinished_task();
       swal("Pesan telah terkirim", "Silakan cek pesan anda di kolom yang sudah ada", "success");
@@ -145,7 +145,7 @@ function create_unfinished_task(){
     unfinished_task_container.innerHTML = "";
   
     task_array = [];
-    firebase.database().ref("alifia").once('value', function(snapshot) {
+    firebase.database().ref("novita").once('value', function(snapshot) {
       snapshot.forEach(function(childSnapshot) {
         var childKey = childSnapshot.key;
         var childData = childSnapshot.val();

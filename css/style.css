@@ -299,7 +299,7 @@ img{
 .container .cover-bottom{
   position: absolute;
   top: -50px;
-  z-index: 100!important;
+  /* z-index: 0!important; */
 }
 
 .arrum-section .cover-top,
@@ -757,7 +757,7 @@ font-size: 40px;
 }
 
 .date1 .text-block2 .kediaman img{
-  width: 330px;
+  width: 78vw;
 }
 
 .date1 .cover-bottom{
@@ -769,7 +769,7 @@ font-size: 40px;
 
 .date1 .cover-bottom img{
   width: 100vw;
-  z-index: -100;
+  /* z-index: -100; */
 }
 
 .date p{
@@ -887,6 +887,18 @@ font-size: 40px;
   margin-top: -180px;
 }
 
+.kediaman3{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.kediaman3 img{
+  width: 99vw;
+  z-index: 1;
+}
+
 .kediaman p{
   padding: 0 300px;
   margin-top: 100px;
@@ -903,8 +915,9 @@ font-size: 40px;
 }
 
 .text-block2 a img{
-  width: 120px;
-  z-index: 1000;
+  width: 150px;
+  z-index: 999 !important;
+  margin-top: -20px;
 }
 
 .sorry-protokol{ 
@@ -957,9 +970,10 @@ font-size: 40px;
 }
 
 .protokol img{ 
-  margin-top: 50px;
-  width: 90%;
-  height: 320px;
+  margin-top: -37px;
+  width: 100vw;
+  /* height: 320px; */
+  z-index: 0!important;
 }
 
 .rsvp{
@@ -1229,14 +1243,18 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 60px;
+  margin-top: -10px;
   width: 100vw;
   height: 100px;
+  background-color: #1a1a1a;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .wish-img img{
   width: 180px;
-  height: 60px;
+  height: 120px;
 }
 
 .contact-us{ 
@@ -1247,6 +1265,7 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: center;
   margin-top: -40px;
+  background-color: #1a1a1a;
 }
 
 .box h2{
@@ -1256,12 +1275,12 @@ input[type="radio"] {
   font-family: 'christmas';
   letter-spacing: 5px;
   font-weight: lighter;
-  color: black;
+  color: white;
   margin-top: 100px;
 }
 
 .box p{
-  color: black;
+  color: white;
   text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding: 0 20px 10px 20px;
@@ -1271,17 +1290,17 @@ input[type="radio"] {
   width: 100%;
   height: 40px;
   background: transparent;
-  border: black 1px solid ;
+  border: white 1px solid ;
   font-size: 20px;
   font-family: 'Redressed', cursive;
   margin-bottom: 20px;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 
 .box button:hover{
-  background: black ;
-  color: black;
+  background: white ;
+  color: white;
   transition: .5s;
 }
 
@@ -1294,13 +1313,13 @@ input[type="radio"] {
   margin-top: 100px;
   font-size: 20px;
   font-family: 'Mitr', sans-serif;
-  color: black;
+  color: white;
 }
 
 .thankyou h5{
   text-align: center;
   font-family: 'amalfi';
-  color: black;
+  color: white;
   font-size: 25px !important;
   font-weight: lighter;
   margin-top: 20px;
@@ -1315,8 +1334,8 @@ input[type="radio"] {
   width: 100%;
   height: 100px;
   background: transparent;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid white;
+  color: white;
   font-family: 'Josefin Sans',sans-serif;
 }
 
@@ -1325,7 +1344,7 @@ input[type="radio"] {
 #nama::-webkit-input-placeholder,
 #alamat::-webkit-input-placeholder,
 #kehadiran::-webkit-input-placeholder{
-  color: black;
+  color: white;
 }
 
 .contact-us form #message{
@@ -1334,7 +1353,7 @@ input[type="radio"] {
 
 .contact-us form input:focus,
 .contact-us form #message:focus{
-  outline-color: black;
+  outline-color: white;
 }
 .contact-us form input{
   height: 35px;
@@ -1346,7 +1365,7 @@ input[type="radio"] {
 #input_button{
   height: 40px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid white;
   background: transparent;
   font-size: 1.0625rem;
   font-weight: 500;
@@ -1357,8 +1376,8 @@ input[type="radio"] {
 }
 
 #input_button:hover{
-  background-color: black;
-  color:black;
+  background-color: white;
+  color:white;
 }
 
 #input_button:active{
@@ -1377,6 +1396,7 @@ input[type="radio"] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  border: #fff solid 1px;
 }
 
 .task_container{
@@ -1386,7 +1406,7 @@ input[type="radio"] {
 }
 
 .task_container:hover{
-  background-color: black;
+  background-color: white;
 }
 
 #task_data{
@@ -1402,7 +1422,7 @@ input[type="radio"] {
   width:100%;
   text-align: left;
   padding: 0;
-  color: black;
+  color: white;
 }
 
 #task_ucapan p{
@@ -1416,7 +1436,7 @@ input[type="radio"] {
   font-size:15px;
   font-weight: bold;
   padding-top: 5px;
-  color: black;
+  color: white;
 }
 
 .footer{
@@ -1426,7 +1446,7 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: transparent;
+  background-color: #1a1a1a;
   padding: 90px 0 60px 0;
   position: relative;
 }
@@ -1442,12 +1462,12 @@ input[type="radio"] {
 }
 
 .footer p{
-  color: black;
+  color: white;
   z-index: 100;
 }
 
 .footer a{
-  color: black;
+  color: white;
   text-decoration: none;
   z-index: 100;
 }
