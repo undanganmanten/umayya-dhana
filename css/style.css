@@ -538,9 +538,9 @@ img{
 }
 
 .bride-name, .groom-name{
-  margin-top: -50px;
+  margin-top: -10px;
   width: 100vw;
-  z-index: 1000;
+  /* z-index: 1000; */
   /* background-color: #242f3f; */
   /* dilok warna iki */
 }
