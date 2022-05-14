@@ -241,9 +241,9 @@ body{
 }
 
 #popup .title img{
-  width: 100%;
+  width: 80%;
   /* margin-bottom: 100px; */
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .title h3{
@@ -570,7 +570,7 @@ img{
   width: 90vw;
   height: 500px;
   margin-right: 0px;
-  margin-top: 160px;
+  margin-top: 50px;
 }
 
 .cover-pengantin img{
